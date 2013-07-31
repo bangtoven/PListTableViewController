@@ -16,8 +16,9 @@
 		04ADF6F117A7916500C59774 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 04ADF6F017A7916500C59774 /* Default.png */; };
 		04ADF6F317A7916500C59774 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04ADF6F217A7916500C59774 /* Default@2x.png */; };
 		04ADF6F517A7916500C59774 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04ADF6F417A7916500C59774 /* Default-568h@2x.png */; };
-		04ADF6F817A7916500C59774 /* PLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ADF6F717A7916500C59774 /* PLViewController.m */; };
-		04ADF6FB17A7916500C59774 /* PLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04ADF6F917A7916500C59774 /* PLViewController.xib */; };
+		04ADF70717A7921500C59774 /* PLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ADF70617A7921500C59774 /* PLNavigationController.m */; };
+		04ADF70A17A7A04A00C59774 /* PLDictionaryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ADF70917A7A04A00C59774 /* PLDictionaryTableViewController.m */; };
+		04ADF70D17A7A06300C59774 /* PLArrayTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ADF70C17A7A06300C59774 /* PLArrayTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,14 +30,21 @@
 		04ADF6E817A7916500C59774 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		04ADF6EA17A7916500C59774 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04ADF6EC17A7916500C59774 /* PListNavigator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PListNavigator-Prefix.pch"; sourceTree = "<group>"; };
-		04ADF6ED17A7916500C59774 /* PLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLAppDelegate.h; sourceTree = "<group>"; };
-		04ADF6EE17A7916500C59774 /* PLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLAppDelegate.m; sourceTree = "<group>"; };
+		04ADF6ED17A7916500C59774 /* PLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PLAppDelegate.h; path = PListNavigator/PLAppDelegate.h; sourceTree = "<group>"; };
+		04ADF6EE17A7916500C59774 /* PLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PLAppDelegate.m; path = PListNavigator/PLAppDelegate.m; sourceTree = "<group>"; };
 		04ADF6F017A7916500C59774 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		04ADF6F217A7916500C59774 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		04ADF6F417A7916500C59774 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		04ADF6F617A7916500C59774 /* PLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLViewController.h; sourceTree = "<group>"; };
-		04ADF6F717A7916500C59774 /* PLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLViewController.m; sourceTree = "<group>"; };
-		04ADF6FA17A7916500C59774 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PLViewController.xib; sourceTree = "<group>"; };
+		04ADF70517A7921500C59774 /* PLNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLNavigationController.h; path = PListNavigatorLibs/PLNavigationController.h; sourceTree = SOURCE_ROOT; };
+		04ADF70617A7921500C59774 /* PLNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PLNavigationController.m; path = PListNavigatorLibs/PLNavigationController.m; sourceTree = SOURCE_ROOT; };
+		04ADF70817A7A04A00C59774 /* PLDictionaryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLDictionaryTableViewController.h; path = PListNavigatorLibs/PLDictionaryTableViewController.h; sourceTree = SOURCE_ROOT; };
+		04ADF70917A7A04A00C59774 /* PLDictionaryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PLDictionaryTableViewController.m; path = PListNavigatorLibs/PLDictionaryTableViewController.m; sourceTree = SOURCE_ROOT; };
+		04ADF70B17A7A06300C59774 /* PLArrayTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLArrayTableViewController.h; path = PListNavigatorLibs/PLArrayTableViewController.h; sourceTree = SOURCE_ROOT; };
+		04ADF70C17A7A06300C59774 /* PLArrayTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PLArrayTableViewController.m; path = PListNavigatorLibs/PLArrayTableViewController.m; sourceTree = SOURCE_ROOT; };
+		04ADF70E17A88BCA00C59774 /* JHDictionaryTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JHDictionaryTableViewController.h; path = PListNavigator/JHDictionaryTableViewController.h; sourceTree = "<group>"; };
+		04ADF70F17A88BCA00C59774 /* JHDictionaryTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = JHDictionaryTableViewController.m; path = PListNavigator/JHDictionaryTableViewController.m; sourceTree = "<group>"; };
+		04ADF71017A88BCA00C59774 /* JHMutableDictionaryTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JHMutableDictionaryTableViewController.h; path = PListNavigator/JHMutableDictionaryTableViewController.h; sourceTree = "<group>"; };
+		04ADF71117A88BCA00C59774 /* JHMutableDictionaryTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = JHMutableDictionaryTableViewController.m; path = PListNavigator/JHMutableDictionaryTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +64,12 @@
 		04ADF6D217A7916500C59774 = {
 			isa = PBXGroup;
 			children = (
-				04ADF6E417A7916500C59774 /* PListNavigator */,
+				04ADF70E17A88BCA00C59774 /* JHDictionaryTableViewController.h */,
+				04ADF70F17A88BCA00C59774 /* JHDictionaryTableViewController.m */,
+				04ADF71017A88BCA00C59774 /* JHMutableDictionaryTableViewController.h */,
+				04ADF71117A88BCA00C59774 /* JHMutableDictionaryTableViewController.m */,
+				04ADF6E417A7916500C59774 /* PListNavigatorLibrary */,
+				04ADF70117A7917700C59774 /* ExampleApp */,
 				04ADF6DD17A7916500C59774 /* Frameworks */,
 				04ADF6DC17A7916500C59774 /* Products */,
 			);
@@ -80,16 +93,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		04ADF6E417A7916500C59774 /* PListNavigator */ = {
+		04ADF6E417A7916500C59774 /* PListNavigatorLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				04ADF6ED17A7916500C59774 /* PLAppDelegate.h */,
-				04ADF6EE17A7916500C59774 /* PLAppDelegate.m */,
-				04ADF6F617A7916500C59774 /* PLViewController.h */,
-				04ADF6F717A7916500C59774 /* PLViewController.m */,
-				04ADF6F917A7916500C59774 /* PLViewController.xib */,
-				04ADF6E517A7916500C59774 /* Supporting Files */,
+				04ADF70517A7921500C59774 /* PLNavigationController.h */,
+				04ADF70617A7921500C59774 /* PLNavigationController.m */,
+				04ADF70817A7A04A00C59774 /* PLDictionaryTableViewController.h */,
+				04ADF70917A7A04A00C59774 /* PLDictionaryTableViewController.m */,
+				04ADF70B17A7A06300C59774 /* PLArrayTableViewController.h */,
+				04ADF70C17A7A06300C59774 /* PLArrayTableViewController.m */,
 			);
+			name = PListNavigatorLibrary;
 			path = PListNavigator;
 			sourceTree = "<group>";
 		};
@@ -105,6 +119,17 @@
 				04ADF6F417A7916500C59774 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			path = PListNavigator;
+			sourceTree = "<group>";
+		};
+		04ADF70117A7917700C59774 /* ExampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				04ADF6ED17A7916500C59774 /* PLAppDelegate.h */,
+				04ADF6EE17A7916500C59774 /* PLAppDelegate.m */,
+				04ADF6E517A7916500C59774 /* Supporting Files */,
+			);
+			name = ExampleApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,7 +188,6 @@
 				04ADF6F117A7916500C59774 /* Default.png in Resources */,
 				04ADF6F317A7916500C59774 /* Default@2x.png in Resources */,
 				04ADF6F517A7916500C59774 /* Default-568h@2x.png in Resources */,
-				04ADF6FB17A7916500C59774 /* PLViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,7 +200,9 @@
 			files = (
 				04ADF6EB17A7916500C59774 /* main.m in Sources */,
 				04ADF6EF17A7916500C59774 /* PLAppDelegate.m in Sources */,
-				04ADF6F817A7916500C59774 /* PLViewController.m in Sources */,
+				04ADF70717A7921500C59774 /* PLNavigationController.m in Sources */,
+				04ADF70A17A7A04A00C59774 /* PLDictionaryTableViewController.m in Sources */,
+				04ADF70D17A7A06300C59774 /* PLArrayTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,14 +215,6 @@
 				04ADF6E817A7916500C59774 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		04ADF6F917A7916500C59774 /* PLViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04ADF6FA17A7916500C59774 /* en */,
-			);
-			name = PLViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
