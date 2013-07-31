@@ -2,22 +2,23 @@
 //  PLAppDelegate.m
 //  PListNavigator
 //
-//  Created by Xeron on 13. 7. 30..
+//  Created by Jungho Bang on 13. 7. 30..
 //  Copyright (c) 2013년 Bangtoven. All rights reserved.
 //
 
 #import "PLAppDelegate.h"
-
-#import "PLViewController.h"
+#import "PLNavigationController.h"
 
 @implementation PLAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    NSData *dataFromWeb = [NSData dataWithContentsOfURL:[NSURL URLWithString:@"http://bangtoven.com:8080/sbapi/menus_of_today"]];
+    id plistData = [NSJSONSerialization JSONObjectWithData:dataFromWeb options:NSJSONReadingAllowFragments error:nil];
+    NSLog(@"%@",plistData);
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.viewController = [[PLViewController alloc] initWithNibName:@"PLViewController" bundle:nil];
-    self.window.rootViewController = self.viewController;
+    self.window.rootViewController = [[PLNavigationController alloc] initWithRootData:plistData];
     [self.window makeKeyAndVisible];
     return YES;
 }
