@@ -19,6 +19,7 @@
 		04ADF70717A7921500C59774 /* PLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ADF70617A7921500C59774 /* PLNavigationController.m */; };
 		04ADF70A17A7A04A00C59774 /* PLDictionaryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ADF70917A7A04A00C59774 /* PLDictionaryTableViewController.m */; };
 		04ADF70D17A7A06300C59774 /* PLArrayTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ADF70C17A7A06300C59774 /* PLArrayTableViewController.m */; };
+		04D6F37917C5E69B0066647D /* example in Resources */ = {isa = PBXBuildFile; fileRef = 04D6F37817C5E69B0066647D /* example */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,10 +42,7 @@
 		04ADF70917A7A04A00C59774 /* PLDictionaryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PLDictionaryTableViewController.m; path = PListNavigatorLibs/PLDictionaryTableViewController.m; sourceTree = SOURCE_ROOT; };
 		04ADF70B17A7A06300C59774 /* PLArrayTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLArrayTableViewController.h; path = PListNavigatorLibs/PLArrayTableViewController.h; sourceTree = SOURCE_ROOT; };
 		04ADF70C17A7A06300C59774 /* PLArrayTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PLArrayTableViewController.m; path = PListNavigatorLibs/PLArrayTableViewController.m; sourceTree = SOURCE_ROOT; };
-		04ADF70E17A88BCA00C59774 /* JHDictionaryTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JHDictionaryTableViewController.h; path = PListNavigator/JHDictionaryTableViewController.h; sourceTree = "<group>"; };
-		04ADF70F17A88BCA00C59774 /* JHDictionaryTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = JHDictionaryTableViewController.m; path = PListNavigator/JHDictionaryTableViewController.m; sourceTree = "<group>"; };
-		04ADF71017A88BCA00C59774 /* JHMutableDictionaryTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JHMutableDictionaryTableViewController.h; path = PListNavigator/JHMutableDictionaryTableViewController.h; sourceTree = "<group>"; };
-		04ADF71117A88BCA00C59774 /* JHMutableDictionaryTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = JHMutableDictionaryTableViewController.m; path = PListNavigator/JHMutableDictionaryTableViewController.m; sourceTree = "<group>"; };
+		04D6F37817C5E69B0066647D /* example */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = example; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,10 +62,6 @@
 		04ADF6D217A7916500C59774 = {
 			isa = PBXGroup;
 			children = (
-				04ADF70E17A88BCA00C59774 /* JHDictionaryTableViewController.h */,
-				04ADF70F17A88BCA00C59774 /* JHDictionaryTableViewController.m */,
-				04ADF71017A88BCA00C59774 /* JHMutableDictionaryTableViewController.h */,
-				04ADF71117A88BCA00C59774 /* JHMutableDictionaryTableViewController.m */,
 				04ADF6E417A7916500C59774 /* PListNavigatorLibrary */,
 				04ADF70117A7917700C59774 /* ExampleApp */,
 				04ADF6DD17A7916500C59774 /* Frameworks */,
@@ -102,6 +96,7 @@
 				04ADF70917A7A04A00C59774 /* PLDictionaryTableViewController.m */,
 				04ADF70B17A7A06300C59774 /* PLArrayTableViewController.h */,
 				04ADF70C17A7A06300C59774 /* PLArrayTableViewController.m */,
+				04D6F37817C5E69B0066647D /* example */,
 			);
 			name = PListNavigatorLibrary;
 			path = PListNavigator;
@@ -188,6 +183,7 @@
 				04ADF6F117A7916500C59774 /* Default.png in Resources */,
 				04ADF6F317A7916500C59774 /* Default@2x.png in Resources */,
 				04ADF6F517A7916500C59774 /* Default-568h@2x.png in Resources */,
+				04D6F37917C5E69B0066647D /* example in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +313,7 @@
 				04ADF70017A7916500C59774 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -13,7 +13,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    NSData *dataFromWeb = [NSData dataWithContentsOfURL:[NSURL URLWithString:@"http://bangtoven.com:8080/sbapi/menus_of_today"]];
+    NSData *dataFromWeb = [NSData dataWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"example" ofType:@""]];
     id plistData = [NSJSONSerialization JSONObjectWithData:dataFromWeb options:NSJSONReadingAllowFragments error:nil];
     NSLog(@"%@",plistData);
     
